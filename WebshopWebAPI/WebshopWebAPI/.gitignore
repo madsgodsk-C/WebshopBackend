@@ -1,0 +1,106 @@
+
+# ==========================================
+# ASP.NET Core / .NET
+# ==========================================
+
+# Build output
+bin/
+obj/
+Debug/
+Release/
+artifacts/
+
+# User-specific files
+*.user
+*.suo
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# ==========================================
+# Visual Studio Code
+# ==========================================
+
+.vscode/*
+
+# Allow shared VS Code configuration
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Visual Studio
+.vs/
+
+# ==========================================
+# SQLite Database
+# ==========================================
+
+# Local database files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# Secrets and Local Configuration
+# ==========================================
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Development-only configuration
+appsettings.Local.json
+appsettings.*.Local.json
+
+# User secrets
+secrets.json
+
+# Certificates and private keys
+*.pfx
+*.p12
+*.key
+*.pem
+
+# ==========================================
+# Logs and Temporary Files
+# ==========================================
+
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Testing and Coverage
+# ==========================================
+
+TestResults/
+coverage/
+coverage-report/
+*.coverage
+*.coveragexml
+
+# ==========================================
+# Node.js / React (Future Frontend)
+# ==========================================
+
+node_modules/
+dist/
+.next/
+out/
+
+# ==========================================
+# Keep EF Core Migrations!
+# ==========================================
+
+# Do NOT ignore Migrations/
+# These files describe your database schema.
